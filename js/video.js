@@ -69,13 +69,16 @@ async function getData() {
         // console.log(getRow(data,5,11))
         // console.log(getRow(data,16,2))
         console.log(getRow(data,2,8))
+        console.log(new Date().getTime())
+        console.log(getRow(data,14,6))
+        console.log((new Date().getTime() - getRow(data,14,6))/1000)
         console.log(data.table)
         // document.querySelector('.nleft').innerHTML = data.table.rows[1].c[2].v
         
         
         
         document.querySelector('.resultInfo').innerHTML = "RESULTS   <span>" + getRow(data,15,6) + "</span>";
-        document.querySelector('.info1').innerHTML = getRow(data,15,6)
+        document.querySelector('.info1').innerHTML = getRow(data,15 ,6)
 
 
 
