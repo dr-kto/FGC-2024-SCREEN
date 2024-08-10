@@ -247,6 +247,16 @@
         width: calc(var(--scale) * 40%);
         padding-bottom: calc(var(--scale) * 1vw);
     } 
+    .resultBlue {
+        margin-left: 2%;
+    }
+    .resultRed {
+        margin-right: 2%;
+    }
+    .resultInfo {
+        margin-left: 16%;
+    }
+
 
     .resultBlue img,
     .resultRed img {
