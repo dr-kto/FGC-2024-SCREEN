@@ -73,6 +73,8 @@ async function getData() {
         console.log(getRow(data,14,6))
         console.log((new Date().getTime() - getRow(data,14,6))/1000)
         console.log(data.table)
+        console.log(Number(getRow(data,13,3)))
+        console.log(Math.round(Number(getRow(data,13,3))*100)/100)
         // document.querySelector('.nleft').innerHTML = data.table.rows[1].c[2].v
         
         
@@ -106,7 +108,7 @@ async function getData() {
         document.querySelector('.red.dPoints').innerHTML =  getRow(data,10,1)+"<span>"+getRow(data,10,3)+"</span>"
         document.querySelector('.red.ePoints').innerHTML =  getRow(data,11,1)+"<span>"+getRow(data,11,3)+"</span>"
         document.querySelector('.red.fPoints').innerHTML =  getRow(data,12,1)+"<span>"+getRow(data,12,3)+"</span>"
-        document.querySelector('.red.gPoints').innerHTML =  getRow(data,13,1)+"<span>"+getRow(data,13,3)+"</span>"
+        document.querySelector('.red.gPoints').innerHTML =  getRow(data,13,1)+"<span>"+Math.round(Number(getRow(data,13,3))*100)/100+"</span>"
         // document.querySelector('.red.gPoints').innerHTML =  getRow(data,13,1)+"<span>"+getRow(data,13,3)+"</span>"
         // document.querySelector('.red.iPoints').innerHTML =  getRow(data,14,1)+"<span>"+Math.round(getRow(data,14,3)*10)/10+"</span>"
         // document.querySelector('.red.jPoints').innerHTML =  getRow(data,15,1)+"<span>"+getRow(data,15,3)+"</span>"
@@ -121,7 +123,7 @@ async function getData() {
         document.querySelector('.blue.dPoints').innerHTML =  getRow(data,10,8)+"<span>"+getRow(data,10,10)+"</span>"
         document.querySelector('.blue.ePoints').innerHTML =  getRow(data,11,8)+"<span>"+getRow(data,11,10)+"</span>"
         document.querySelector('.blue.fPoints').innerHTML =  getRow(data,12,8)+"<span>"+getRow(data,12,10)+"</span>"
-        document.querySelector('.blue.gPoints').innerHTML =  getRow(data,13,8)+"<span>"+getRow(data,13,10)+"</span>"
+        document.querySelector('.blue.gPoints').innerHTML =  getRow(data,13,8)+"<span>"+Math.round(Number(getRow(data,13,10))*100)/100+"</span>"
         // document.querySelector('.blue.gPoints').innerHTML =  getRow(data,13,8)+"<span>"+getRow(data,13,10)+"</span>"
         // document.querySelector('.blue.iPoints').innerHTML =  getRow(data,14,8)+"<span>"+Math.round(getRow(data,14,10)*10)/10+"</span>"
         // document.querySelector('.blue.jPoints').innerHTML =  getRow(data,15,8)+"<span>"+getRow(data,15,10)+"</span>"
