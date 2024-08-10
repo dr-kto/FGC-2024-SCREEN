@@ -158,6 +158,8 @@
         display: flex;
         justify-content: space-between;
         font-size: calc(var(--scale) * 1.3vw);
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
     }
     .rTeamScore
     {
@@ -249,9 +251,11 @@
     } 
     .resultBlue {
         margin-left: 2%;
+        border-bottom-left-radius: 3px;
     }
     .resultRed {
         margin-right: 2%;
+        border-bottom-left-radius: 3px;
     }
     .resultInfo {
         margin-left: 16%;
