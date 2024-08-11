@@ -112,7 +112,7 @@ async function getData() {
         // document.querySelector('.red.gPoints').innerHTML =  getRow(data,13,1)+"<span>"+getRow(data,13,3)+"</span>"
         // document.querySelector('.red.iPoints').innerHTML =  getRow(data,14,1)+"<span>"+Math.round(getRow(data,14,3)*10)/10+"</span>"
         // document.querySelector('.red.jPoints').innerHTML =  getRow(data,15,1)+"<span>"+getRow(data,15,3)+"</span>"
-        document.querySelector('.rTeamScore').innerHTML =  getRow(data,14,2)+"<span>"+getRow(data,14,2)+"</span>"
+        document.querySelector('.rTeamScore').innerHTML =  getRow(data,14,1)+"<span>"+getRow(data,14,2)+"</span>"
         document.querySelector('.sleft').innerHTML =  getRow(data,14,2)
         scoreRed = getRow(data,14,2)
         
